@@ -174,9 +174,15 @@
 <dimension x1="0" y1="0" x2="74.6" y2="0" x3="37.3" y3="-17.78" textsize="1.778" layer="47"/>
 <dimension x1="74.6" y1="0" x2="74.6" y2="30.47" x3="86.36" y3="15.235" textsize="1.778" layer="47"/>
 <polygon width="0.1524" layer="41">
-<vertex x="47.3075" y="30.48"/>
-<vertex x="53.6575" y="30.48"/>
-<vertex x="53.6575" y="17.4625"/>
+<vertex x="47.3075" y="32.0675"/>
+<vertex x="56.1975" y="32.0675"/>
+<vertex x="56.1975" y="17.4625"/>
+<vertex x="47.3075" y="17.4625"/>
+</polygon>
+<polygon width="0.1524" layer="42">
+<vertex x="47.3075" y="32.0675"/>
+<vertex x="56.1975" y="32.0675"/>
+<vertex x="56.1975" y="17.4625"/>
 <vertex x="47.3075" y="17.4625"/>
 </polygon>
 </plain>
