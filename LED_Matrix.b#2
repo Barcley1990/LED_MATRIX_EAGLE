@@ -185,6 +185,9 @@
 <vertex x="56.1975" y="17.4625"/>
 <vertex x="47.3075" y="17.4625"/>
 </polygon>
+<text x="15.5575" y="26.3525" size="1.016" layer="21">V+</text>
+<text x="18.0975" y="26.3525" size="1.016" layer="21">D</text>
+<text x="20.6375" y="26.3525" size="1.016" layer="21">GND</text>
 </plain>
 <libraries>
 <library name="rcl">

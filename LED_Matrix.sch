@@ -9644,6 +9644,9 @@ Source: murata.co.jp</description>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ" device=""/>
 <part name="Q4" library="murata-filter" deviceset="CSTCR" device="" technology="6M00G53Z"/>
+<part name="AUDIO" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9726,6 +9729,9 @@ Source: murata.co.jp</description>
 <instance part="P+12" gate="1" x="119.38" y="127"/>
 <instance part="SJ1" gate="1" x="182.88" y="101.6" rot="R90"/>
 <instance part="Q4" gate="G$1" x="30.48" y="109.22" rot="R270"/>
+<instance part="AUDIO" gate="A" x="180.34" y="154.94"/>
+<instance part="P+9" gate="1" x="170.18" y="165.1"/>
+<instance part="GND15" gate="1" x="170.18" y="144.78"/>
 </instances>
 <busses>
 </busses>
@@ -9824,6 +9830,12 @@ Source: murata.co.jp</description>
 <pinref part="SJ1" gate="1" pin="2"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="182.88" y1="109.22" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AUDIO" gate="A" pin="1"/>
+<wire x1="177.8" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<wire x1="170.18" y1="162.56" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10016,6 +10028,12 @@ Source: murata.co.jp</description>
 <wire x1="149.86" y1="116.84" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="119.38" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="AUDIO" gate="A" pin="3"/>
+<wire x1="177.8" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="170.18" y1="147.32" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10306,6 +10324,11 @@ Source: murata.co.jp</description>
 <pinref part="ATMEGA328" gate="1" pin="PC0(ADC0/PCINT8)"/>
 <wire x1="109.22" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
 <label x="114.3" y="132.08" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="AUDIO" gate="A" pin="2"/>
+<wire x1="177.8" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
+<label x="172.72" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">

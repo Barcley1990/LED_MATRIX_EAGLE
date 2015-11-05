@@ -185,9 +185,9 @@
 <vertex x="56.1975" y="17.4625"/>
 <vertex x="47.3075" y="17.4625"/>
 </polygon>
-<text x="15.5575" y="26.3525" size="1.016" layer="21">V+</text>
-<text x="18.0975" y="26.3525" size="1.016" layer="21">D</text>
-<text x="20.6375" y="26.3525" size="1.016" layer="21">GND</text>
+<text x="15.5575" y="26.3525" size="1.016" layer="21" font="vector">V+</text>
+<text x="18.0975" y="26.3525" size="1.016" layer="21" font="vector">D</text>
+<text x="20.6375" y="26.3525" size="1.016" layer="21" font="vector">GND</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2163,7 +2163,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="13.7475" y="23.5825" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R11" library="rcl" package="R0805" value="470" x="14.2875" y="24.765" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.5575" y="26.3525" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="15.5575" y="26.035" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="11.7475" y="25.4" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R12" library="rcl" package="R0805" value="470" x="31.115" y="21.9075" smashed="yes" rot="MR0">

@@ -17190,7 +17190,7 @@ wave soldering</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="10"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
-<part name="C18" library="rcl" deviceset="CPOL-EU" device="153CLV-0605" value="250u"/>
+<part name="C18" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="250u"/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="TRIMMER" library="Tobias" deviceset="75H_RTRIM" device="" value="10k"/>
